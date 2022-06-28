@@ -1,0 +1,13 @@
+$primary-color: #8F8F8F;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Righteous', cursive;
+  src: url('./assets/fonts/Righteous-Regular.ttf') format('ttf');
+}
+
+input,
+textarea {
+  font-family: 'Righteous', cursive;
+}
