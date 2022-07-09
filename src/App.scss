@@ -7,6 +7,12 @@ $primary-color: #8F8F8F;
   src: url('./assets/fonts/Righteous-Regular.ttf') format('ttf');
 }
 
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
+    url('./assets/fonts/LaBelleAurore.woff') format('woff');
+}
+
 input,
 textarea {
   font-family: 'Righteous', cursive;

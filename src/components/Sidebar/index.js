@@ -12,7 +12,7 @@ const Sidebar = () => (
     </Link>
     <nav>
       <Link exact="true" activeclassname="active" to="/">
-        <FontAwesomeIcon icon={faHome} color="#2D3034" />
+        <FontAwesomeIcon icon={faHome} color="#D7D7D7" />
       </Link>
       <Link
         exact="true"
@@ -20,7 +20,7 @@ const Sidebar = () => (
         className="about-link"
         to="/about"
       >
-        <FontAwesomeIcon icon={faUser} color="#2D3034" />
+        <FontAwesomeIcon icon={faUser} color="#D7D7D7" />
       </Link>
       <Link
         exact="true"
@@ -28,7 +28,7 @@ const Sidebar = () => (
         className="contact-link"
         to="/contact"
       >
-        <FontAwesomeIcon icon={faEnvelope} color="#2D3034" />
+        <FontAwesomeIcon icon={faEnvelope} color="#D7D7D7" />
       </Link>
     </nav>
     <ul>
@@ -38,7 +38,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://www.linkedin.com/in/fideliotandy/"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="#2D3034" />
+          <FontAwesomeIcon icon={faLinkedin} color="#D7D7D7" />
         </a>
       </li>
       <li>
@@ -47,7 +47,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://github.com/Bujingjang"
         >
-          <FontAwesomeIcon icon={faGithub} color="#2D3034" />
+          <FontAwesomeIcon icon={faGithub} color="#D7D7D7" />
         </a>
       </li>
       <li>
@@ -56,7 +56,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://www.facebook.com/fidelio.tandy.3/"
         >
-          <FontAwesomeIcon icon={faFacebook} color="#2D3034" />
+          <FontAwesomeIcon icon={faFacebook} color="#D7D7D7" />
         </a>
       </li>
       <li>
@@ -65,7 +65,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://www.instagram.com/fidelio_tandy"
         >
-          <FontAwesomeIcon icon={faInstagram} color="#2D3034" />
+          <FontAwesomeIcon icon={faInstagram} color="#D7D7D7" />
         </a>
       </li>
     </ul>
