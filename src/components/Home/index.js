@@ -20,7 +20,7 @@ const Home = () => {
 
     return (
       <>
-        <div className="container home-page">
+        <div className="home-page">
           <div className="text-zone">
             <h2>
               <AnimatedLetters
@@ -43,7 +43,7 @@ const Home = () => {
                 idx={27}
               />
             </h2>
-            <h3 className="role">Student / Software Engineer</h3>
+            <h3 className="role">Student / Web Developer / Software Engineer</h3>
             <Link to="/contact" className="flat-button">
               CONTACT ME
             </Link>

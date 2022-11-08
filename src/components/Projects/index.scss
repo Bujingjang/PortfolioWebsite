@@ -1,0 +1,57 @@
+.container-projects {
+  width: 90%;
+  height: 75%;
+  min-height: 566px;
+  display: flex;
+  margin: auto 4em;
+  justify-content: space-between;
+}
+
+// CSS of the left button
+.previous-button {
+  height: 100%;
+  width: 3em;
+  display: flex;
+  align-items: center;
+  animation: fadeIn 1s 0.5s backwards;
+
+  svg {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-out;
+  }
+
+  svg:hover {
+    color: #e45c48;
+    transform: scale(1.2);
+  }
+}
+
+// CSS of the card list content
+.card-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  animation: fadeIn 1s 1s backwards;
+}
+
+// CSS of the right button
+.next-button {
+  height: 100%;
+  width: 3em;
+  display: flex;
+  align-items: center;
+  animation: fadeIn 1s 0.5s backwards;
+
+  svg {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-out;
+  }
+
+  svg:hover {
+    color: #e45c48;
+    transform: scale(1.2);
+  }
+}

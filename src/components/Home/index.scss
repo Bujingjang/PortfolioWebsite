@@ -1,11 +1,12 @@
 .home-page {
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
   .text-zone {
-    position: absolute;
-    left: 15em;
-    top: 57%;
-    transform: translateY(-50%);
-    width: 60%;
-    max-height: 90%;
+    margin-left: 11em;
   }
 
   h1 {
@@ -21,7 +22,7 @@
       font-size: 18px;
       position: absolute;
       margin-top: -75px;
-      left: -10px;
+      left: 6em;
       opacity: 0.6;
     }
 

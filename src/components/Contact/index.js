@@ -49,9 +49,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using the form below.
+            I am interested in any kinds of programming opportunities - especially in
+            software engineering or full-stack development related. However, if you have
+            other request or question, don't hesitate to contact me using the form below.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -93,17 +93,17 @@ const Contact = () => {
         <div className="info-map">
           Fidelio Tandy,
           <br />
-          Australia,
+          Clayton, VIC 3169
           <br />
-          Unit 2, 1-3 Arnott Street <br />
-          Clayton, VIC 3169 <br />
+          Australia
+          <br />
           <span>fideliotandy11@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[-37.91644, 145.13474]} zoom={13}>
+          <MapContainer center={[-37.9145, 145.1275]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[-37.91644, 145.13474]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[-37.9145, 145.1275]}>
+              <Popup>This is where Fidelio lives</Popup>
             </Marker>
           </MapContainer>
         </div>

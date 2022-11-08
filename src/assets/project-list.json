@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "TeaCozy Codecademy",
+      "description": "A single web page using plain html and css (using flexbox and positioning) based on a given design prototype.",
+      "technologies": ["html", "css"],
+      "git_url": "https://github.com/Bujingjang/TeaCozy_Codecademy",
+      "image": "images/project-img/teacozy_codecademy.png"
+    },
+    {
+      "id": 2,
+      "title": "Market.it",
+      "description": "A hackathon project for Garuda Hacks, creating a multi page website using the term MERN stack. The idea behind the web application is to connect companies with the right influencers in order for them to showcase their brand to the world",
+      "technologies": ["MERN stack", "Node.js", "Express.js", "Firebase", "ejs"],
+      "git_url": "https://github.com/Bujingjang/GarudaHacksV2.0",
+      "image": "images/project-img/market_it.png"
+    },
+    {
+      "id": 3,
+      "title": "Galaxy Game",
+      "description": "A Python game with the integration of Kivy framework to generate the UI. Player need to move the spaceship right or left while following the path that has been randomly generated",
+      "technologies": ["Python", "Kivy"],
+      "git_url": "https://github.com/Bujingjang/Galaxy",
+      "image": "images/project-img/galaxy_game.png"
+    },
+    {
+      "id": 4,
+      "title": "MP3 Converter",
+      "description": "A simple Python app where it converts a YouTube link url into a mp3 file, along with various configurations of the YouTube video",
+      "technologies": ["Python", "Advanced Algorithms", "pygame"],
+      "git_url": "https://github.com/Bujingjang/MP3Converter",
+      "image": "images/project-img/mp3_converter.png"
+    },
+    {
+      "id": 5,
+      "title": "Chess Game",
+      "description": "A Python chess game application where players could fight the bot that has been implemented using complex algorithms to achieve the adequate amount of difficulties while applying some object oriented programming (OOP) on it",
+      "technologies": ["html", "css"],
+      "git_url": "https://github.com/Bujingjang/ChessGame",
+      "image": "images/project-img/chess_game.png"
+    },
+    {
+      "id": 6,
+      "title": "Personal Website",
+      "description": "This website is a part of the project as well. It uses React framework for the front-end. Also, it utilizes react-router-dom to create such single page applications (SPA) and to make easier improvements in the future, along with animate.css to build advanced css animations within the page.",
+      "technologies": ["React.js", "animate.css"],
+      "git_url": "https://github.com/Bujingjang/PortfolioWebsite",
+      "image": "images/project-img/personal_website.png"
+    }
+  ]
+}
