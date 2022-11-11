@@ -1,3 +1,5 @@
+
+
 /* app */
 .app {
   height: 100%;
@@ -9,6 +11,14 @@
   display: inline-block;
   height: 100%;
   width: 5.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .side-menu {
+    display: inline-block;
+    height: 5.5em;
+    width: 100%;
+  }
 }
 
 /* App Container */
