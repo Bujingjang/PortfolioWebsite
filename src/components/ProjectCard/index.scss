@@ -20,6 +20,30 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 20em;
+    height: 37em;
+    text-align: center;
+    color: #d7d7d7;
+    border-radius: 1em;
+    border-style: inset;
+    border-width: 0.3em;
+    background: #2c2d32;
+  }
+
+  .card-image {
+    height: 30%;
+
+    img {
+      height: 12em;
+      width: 20em;
+      border-top-left-radius: 0.7em;
+      border-top-right-radius: 0.7em;
+    }
+  }
+}
+
 @keyframes nextPage {
   0% {
     opacity: 0;
@@ -63,6 +87,28 @@
     &:hover {
       animation: rubberBand 1s;
       color: #E45C48;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .technologies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    li {
+      margin: 0 1em;
+      font-size: 1.1em;
+
+      min-width: 10px;
+      display: inline-block;
+      animation-fill-mode: both;
+
+      &:hover {
+        animation: rubberBand 1s;
+        color: #E45C48;
+      }
     }
   }
 }

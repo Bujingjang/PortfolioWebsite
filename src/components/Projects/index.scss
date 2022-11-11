@@ -7,6 +7,12 @@
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 768px) {
+  .content{
+    padding-right: 0;
+  }
+}
+
 // CSS of the left button
 .previous-button {
   height: 100%;
@@ -27,6 +33,27 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .previous-button {
+    height: 100%;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s 0.5s backwards;
+
+    svg {
+      width: 100%;
+      height: auto;
+      transition: all 0.3s ease-out;
+    }
+
+    svg:hover {
+      color: #e45c48;
+      transform: scale(1.2);
+    }
+  }
+}
+
 // CSS of the card list content
 .card-list {
   height: 100%;
@@ -35,6 +62,17 @@
   align-items: center;
   animation: fadeIn 1s 1s backwards;
 }
+
+@media only screen and (max-width: 768px) {
+  .card-list {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s 1s backwards;
+  }
+}
+
 
 // CSS of the right button
 .next-button {
@@ -53,5 +91,26 @@
   svg:hover {
     color: #e45c48;
     transform: scale(1.2);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .next-button {
+    height: 100%;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s 0.5s backwards;
+
+    svg {
+      width: 100%;
+      height: auto;
+      transition: all 0.3s ease-out;
+    }
+
+    svg:hover {
+      color: #e45c48;
+      transform: scale(1.2);
+    }
   }
 }
