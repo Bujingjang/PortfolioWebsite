@@ -17,6 +17,19 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .text-animate-hover {
+        min-width: 5px;
+        display: inline-block;
+        animation-fill-mode: both;
+
+        &:hover {
+            animation: rubberBand 1s;
+            color: #E45C48;
+        }
+    }
+}
+
 @for $i from 1 through 59 {
     .text-animate._#{$i} {
         animation-delay: #{$i / 20}s;

@@ -15,8 +15,8 @@
 
 @media only screen and (max-width: 768px) {
   .side-menu {
-    display: inline-block;
-    height: 5.5em;
+    display: block;
+    height: 8%;
     width: 100%;
   }
 }
@@ -27,6 +27,15 @@
   position: absolute;
   height: 100%;
   width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .page {
+    display: block;
+    position: absolute;
+    height: 92%;
+    width: 100%;
+  }
 }
 
 .top-tags {
@@ -55,6 +64,15 @@
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 5em;
+  }
 }
 
 .container {
