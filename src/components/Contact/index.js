@@ -55,7 +55,7 @@ const Contact = () => {
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
-              <ul>
+              <ul className="inputs">
                 <li className="half">
                   <input
                     type="text"

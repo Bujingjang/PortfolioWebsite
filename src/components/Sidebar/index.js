@@ -54,7 +54,7 @@ const Sidebar = () => (
         </nav>
       </div>
       <div className="social">
-        <ul>
+        <ul className="socialList">
           <li>
             <a
               target="_blank"

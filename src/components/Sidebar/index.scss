@@ -141,7 +141,7 @@
   align-items: flex-end;
 }
 
-ul {
+.socialList {
   padding-bottom: 1em;
   list-style: none;
   text-align: center;
@@ -170,7 +170,7 @@ ul {
     align-items: center;
   }
 
-  ul {
+  .socialList {
     display: flex;
     align-content: space-between;
     padding-bottom: 0;
